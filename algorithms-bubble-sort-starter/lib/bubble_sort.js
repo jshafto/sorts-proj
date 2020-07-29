@@ -7,20 +7,34 @@ function swap(array, idx1, idx2) {
 // Use this pseudocode to implement the bubble sort
 function bubbleSort(array) {
   // n := length(array)
+  let n = array.length;
+  let noSwapped = false;
   // repeat
-  //  swapped = false
-  //  for i := 1 to n - 1 inclusive do
-  //
-  //     /* if this pair is out of order */
-  //     if A[i - 1] > A[i] then
-  //
-  //       /* swap them and remember something changed */
-  //       swap(A[i - 1], A[i])
-  //       swapped := true
-  //
-  //     end if
-  //   end for
+  // for (let j = 0; j < n; j++) {
+  //   if(noSwapped) continue;
+  while (noSwapped === false) {
+    noSwapped = true;
+    //  for i := 1 to n - 1 inclusive do
+    for (let i = 1; i < n; i ++) {
+      //
+      //     /* if this pair is out of order */
+      //     if A[i - 1] > A[i] then
+      if (array[i - 1] > array[i]) {
+        //       /* swap them and remember something changed */
+        //       swap(A[i - 1], A[i])
+        swap(array, i-1, i);
+        //       swapped := true
+        noSwapped = false;
+        //
+        //     end if
+      }
+      //
+
+      //   end for
+    }
   // until not swapped
+  }
+  return array;
 }
 
 
