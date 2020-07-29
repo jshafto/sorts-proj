@@ -2,7 +2,7 @@
 Completed as part of the App Academy curriculum. Implementation by Juliet Shafto and TJ Taylor.
 
 ## Project Status
-- [ ] Bubble sort
+- [x] Bubble sort
 - [ ] Selection sort
 - [ ] Insertion sort
 - [ ] Merge sort
