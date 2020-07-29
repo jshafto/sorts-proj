@@ -5,7 +5,7 @@ Completed as part of the App Academy curriculum. Implementation by Juliet Shafto
 - [x] Bubble sort
 - [x] Selection sort
 - [x] Insertion sort
-- [ ] Merge sort
+- [x] Merge sort
 - [ ] Quick sort
 - [ ] Binary search
 
