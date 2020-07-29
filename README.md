@@ -6,7 +6,7 @@ Completed as part of the App Academy curriculum. Implementation by Juliet Shafto
 - [x] Selection sort
 - [x] Insertion sort
 - [x] Merge sort
-- [ ] Quick sort
+- [x] Quick sort
 - [ ] Binary search
 
 ## Project Description
