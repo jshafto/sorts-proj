@@ -7,7 +7,7 @@ Completed as part of the App Academy curriculum. Implementation by Juliet Shafto
 - [x] Insertion sort
 - [x] Merge sort
 - [x] Quick sort
-- [ ] Binary search
+- [x] Binary search
 
 ## Project Description
 This project consists of skeletons for implementing five different common sorts, as well as a binary search algorithm.
